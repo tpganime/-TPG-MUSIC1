@@ -4,7 +4,7 @@
  * @fileoverview 
  * @module ConfigurationManager
  * @version 1.0.0
- * @author GlaceYT
+ * @author TPG
  */
 
 const EnvironmentVariableProcessor = require('process').env;
@@ -41,9 +41,9 @@ class EnterpriseConfigurationManager {
              */
             bot: {
                 prefix: EnvironmentVariableProcessor.BOT_PREFIX || "!",  // 👈 prefix (!, ?, etc)
-                ownerIds: ["1004206704994566164"],      // 👈 ADD YOUR DISCORD ID HERE
+                ownerIds: ["859006087080837120"],      // 👈 ADD YOUR DISCORD ID HERE
                 embedColor: 0x00AE86,               // 👈 Bot embed color (hex)
-                supportServer: "https://discord.gg/xQF9f9yUEM",    // 👈 Your support server link
+                supportServer: "add soon",    // 👈 Your support server link
                 defaultStatus: "🎵 Ready for music!"         // 👈 Bot status message
             },
             
@@ -100,6 +100,7 @@ module.exports = primaryApplicationConfiguration;
  * Never share your bot token or database URI publicly!
  * Use environment variables in production!
  */
+
 
 
 
